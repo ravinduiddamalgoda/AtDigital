@@ -32,7 +32,7 @@ function MainPage(){
                         <Button word= "Get free consultation"/>
                     </div>
                 </div>
-                <div className='grid grid-rows-2 p-4 gap-6 justify-items-center'>
+                <div className='grid grid-rows-2 p-4 gap-6 justify-items-center mb-10'>
                     <div className='flex flex-col items-center md:flex-row lg:w-4/5 xl:w-8/12 '>
                         <img src={icon1} className='p-2 w-64 md:w-72 lg:w-96'/>
                         <div className='flex flex-col items-center md:items-start lg:pl-8 xl:pl-16'>
