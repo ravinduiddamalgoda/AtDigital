@@ -63,41 +63,41 @@ const Footer = () => {
           </p>
         </div>
         <div className="md:flex md:flex-row flex flex-col ">
-          <div className="px-4 md:w-1/3 lg:w-1/2 xl:1/2 ">
+          <div className="px-4 md:w-1/3 lg:w-fit xl:w-fit ">
             <div className="pt-4">
-              <h3 className="Text-lg text-white font-semibold ">
+              <h3 className="Text-lg text-white font-semibold hover:underline ">
                 Our Technologies
               </h3>
             </div>
             <ul className="list-none list-inside text-white py-1 text-sm">
-              <li className="pt-1 hover:text-md hover:font-bold">ReactJS</li>
-              <li className="pt-1 hover:text-md hover:font-bold">Gatsby</li>
-              <li className="pt-1 hover:text-md hover:font-bold">NextJS</li>
-              <li className="pt-1 hover:text-md hover:font-bold">NodeJs</li>
-              <li className="pt-1 hover:text-md hover:font-bold">GraphQL</li>
-              <li className="pt-1 hover:text-md hover:font-bold">Laravel</li>
+              <li className="pt-1">ReactJS</li>
+              <li className="pt-1">Gatsby</li>
+              <li className="pt-1">NextJS</li>
+              <li className="pt-1">NodeJs</li>
+              <li className="pt-1">GraphQL</li>
+              <li className="pt-1">Laravel</li>
             </ul>
           </div>
-          <div className="px-4 md:w-1/3 lg:w-1/2 xl:1/2">
+          <div className="px-4 md:w-1/3 lg:w-fit xl:w-fit ">
             <div className="pt-4">
-              <h3 className="Text-lg text-white font-semibold ">
+              <h3 className="Text-lg text-white font-semibold hover:underline ">
                 Our Services
               </h3>
             </div>
             <ul className="list-none list-inside text-white py-1 text-sm">
-              <li className="pt-1 hover:text-md hover:font-bold">
+              <li className="pt-1">
                 Social Media Marketing
               </li>
-              <li className="pt-1 hover:text-md hover:font-bold">
-                Web & Mobile App Development
+              <li className="pt-1">
+                Web & Mobile <br/>App Development
               </li>
-              <li className="pt-1 hover:text-md hover:font-bold">
+              <li className="pt-1">
                 Data & Analytics
               </li>
-              <li className="pt-1 hover:text-md hover:font-bold">
+              <li className="pt-1">
                 Google Marketing Solutions
               </li>
-              <li className="pt-1 hover:text-md hover:font-bold">
+              <li className="pt-1">
                 Search Engine Optimization
               </li>
             </ul>
